@@ -9,6 +9,7 @@
 // Output: false
 class Solution { 
 public: 
+
     bool checkPerfectNumber(int num) { 
          if (num <= 0) { 
             return false; 
