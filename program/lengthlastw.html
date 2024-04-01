@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Length of Last Word -->
+    <!-- Input: s = "Hello World"
+    Output: 5
+    Explanation: The last word is "World" with length 5. -->
+    <script>
+        var lengthOfLastWord = function(s) {
+        return s.trimEnd().split(' ').pop().length
+        };
+    </script>
+</body>
+</html>
